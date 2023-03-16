@@ -1,2 +1,1 @@
-# guess-the-number
-A guessing game displaying DOM manipulation
+"# Guess-The-Number" 
