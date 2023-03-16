@@ -53,6 +53,7 @@ document.querySelector('.check').addEventListener('click', function () {
     document.querySelector('.message').innerHTML = 'Please Enter a Number';
   } else if (guessedNum === randomNum) {
     document.body.style.background = '#60b347';
+    document.querySelector('.number').innerHTML = randomNum;
     document.getElementById('headerText').innerHTML = 'Winner!';
     document.querySelector('.message').innerHTML = '🎉 You Guessed Correctly!';
     document.querySelector('.check').disabled = true;
